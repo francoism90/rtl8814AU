@@ -7,7 +7,18 @@ Build fixes for Linux 4.15=> by:
 * https://github.com/tpircher/rtl8814AU
 * https://github.com/lwfinger/rtlwifi_new
 
-TODO:
+Please give credits to developers in the repo's listed above. :)
+
+## DKMS
+
+```
+sudo rm -rf /usr/src/rtl8814au-4.3.21
+sudo cp -R . /usr/src/rtl8814au-4.3.21
+sudo dkms build -m rtl8814au -v 4.3.21
+sudo dkms install -m rtl8814au -v 4.3.21
+```
+
+## TODO
 - [ ] Testing
 - [ ] Security issues?
 - [ ] Fixes provided by other sources?
