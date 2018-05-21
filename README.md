@@ -9,8 +9,6 @@ Build fixes for Linux 4.15=> by:
 
 TODO:
 - [ ] Testing
-- [ ] USB3(.1) Fix?
-- [ ] DKMS support
 - [ ] Security issues?
 - [ ] Fixes provided by other sources?
 - [ ] LED-Control
