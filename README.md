@@ -19,5 +19,6 @@ sudo dkms install -m rtl8814au -v 4.3.21
 
 ## TODO
 - [ ] Testing
+- [ ] Add more devices
 - [ ] Security issues?
 - [ ] Fixes provided by other sources?
