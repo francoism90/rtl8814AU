@@ -21,6 +21,6 @@ sudo dkms install -m rtl8814au -v 4.3.21
 
 ## TODO
 - [ ] Testing
-- [ ] Add more devices
+- [ ] Add more devices: run `$ lsusb` or `$ lspci`, find the device, and create an issue/PR. :)
 - [ ] Security issues?
 - [ ] Fixes provided by other sources?
