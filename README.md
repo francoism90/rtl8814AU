@@ -1,5 +1,7 @@
 # rtl8814au
 
+> Please use https://github.com/nazar-pc/RTL8814AU instead, this package is only for testing the 'new' TP release.
+
 Based on [T9UH_linux_v4.3.21.1_24835.20171031](https://static.tp-link.com/2018/201805/20180508/Archer%20T9UH_180428_Linux_beta.zip) ([source](https://www.tp-link.com/us/download/Archer-T9UH.html#Driver)).
 
 Includes build fixes/tweaks/devices and support for Linux 4.15>= by:
@@ -9,17 +11,3 @@ Includes build fixes/tweaks/devices and support for Linux 4.15>= by:
 * https://github.com/lwfinger/rtlwifi_new
 
 LED-Support (`rtw_led_ctrl`) by aircrack-ng.
-
-## DKMS
-
-```
-sudo rm -rf /usr/src/rtl8814au-4.3.21
-sudo cp -R . /usr/src/rtl8814au-4.3.21
-sudo dkms build -m rtl8814au -v 4.3.21
-sudo dkms install -m rtl8814au -v 4.3.21
-```
-
-## TODO
-- [ ] Testing
-- [ ] Security issues?
-- [ ] Fixes provided by other sources?
